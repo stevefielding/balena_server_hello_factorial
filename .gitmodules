@@ -1,0 +1,9 @@
+[submodule "balena_hello_world"]
+	path = balena_hello_world
+	url = https://github.com/stevefielding/balena_hello_world.git
+[submodule "balena_simple_server"]
+	path = balena_simple_server
+	url = https://github.com/stevefielding/balena_simple_server.git
+[submodule "balena_factorial"]
+	path = balena_factorial
+	url = https://github.com/stevefielding/balena_factorial.git
