@@ -1,0 +1,17 @@
+version: '2'
+services:
+  factorial:
+    build: ./factorial
+    privileged: false
+    restart: never
+    #network_mode: host
+  hello:
+    build: ./hello
+    restart: always
+    privileged: false
+  server:
+    restart: always
+    build: ./server
+    ports:
+      - "80"
+
