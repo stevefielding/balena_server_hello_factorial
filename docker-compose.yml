@@ -1,17 +1,17 @@
 version: '2'
 services:
   factorial:
-    build: ./factorial
+    build: ./balena_factorial
     privileged: false
     restart: never
     #network_mode: host
   hello:
-    build: ./hello
+    build: ./balena_hello_world
     restart: always
     privileged: false
   server:
     restart: always
-    build: ./server
+    build: ./balena_simple_server
     ports:
       - "80"
 
